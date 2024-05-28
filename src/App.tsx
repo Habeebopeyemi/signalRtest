@@ -8,7 +8,7 @@ function App() {
   
   useEffect(() => {
     events((response) => setMessage(response.message));
-  }, []);
+  }, [events]);
 
   return (
     <div className="App">
